@@ -1,0 +1,369 @@
+/* ------------------------------------- 0 -------------------------------------- */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	border:none;
+}
+@font.face{
+	font-family:OpenSans-Bold;
+	src:url(../fonts/OpenSans-Bold.ttf);
+}
+@font.face{
+	font-family:OpenSans-BoldItalic;
+	src:url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+@font.face{
+	font-family:fontawesome-webfont;
+	src:url(../fonts/fontawesome-webfont.ttf);
+}
+@font.face{
+	font-family:OpenSans-Italic;
+	src:url(../fonts/OpenSans-Italic.ttf);
+}
+@font.face{
+	font-family:OpenSans-Light;
+	src:url(../fonts/OpenSans-Light.ttf);
+}
+@font.face{
+	font-family:OpenSans-Regular;
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font.face{
+	font-family:OpenSans-Semibold;
+	src:url(../fonts/OpenSans-Semibold.ttf);
+}
+/* ------------------------------------- 0 -------------------------------------- */
+/* ----------------------------- manu start ------------------------------ */
+.black{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(55, 167, 16, 0.68);
+	transition: .2s;
+	z-index: 10000;
+}
+#manu .navbar-header button{
+	background: none;
+	border: none;
+}
+#manu .navbar-header button span{
+	background: #ffffff;
+}
+.navbar-default  { /* For background color change */
+	background-color:rgba(52, 73, 94,1.0); /* 1 background-color*/
+	border: none;
+	border-radius: 0px;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	/* box-shadow: 0 8px 30px #d2a7b4e8; */
+	/* position: fixed; */
+}
+#manu .manu1 .navbar-nav li a{
+	color: #ffffff;
+	font-size: 14px;
+	font-family:OpenSans-Italic;
+	line-height: 225%;
+	text-transform: uppercase;
+}
+#manu .manu1 .navbar-nav li a:hover{
+	background-color: #f39c12;
+	color: #0000B3;
+}
+#manu .manu1 .navbar-nav li a:focus{
+	color: #00A600;
+	background-color: rgba(52, 73, 94,1.0);
+}
+.navbar > .container .navbar-brand img{
+   width: 50px;
+   height: 40px;
+   margin-top: -4px;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+	color: #ffffff;
+	background-color: rgba(52, 73, 94,1.0);
+	height: 100%;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	margin-top: -1px;
+    color: #ffffff;
+    background-color: rgba(246, 45, 22, 0.78); /* 2 background-color*/
+}
+
+.navbar-default .navbar-form {
+    margin-top: 13px;
+}
+.navbar-default .navbar-form input{
+	color: #000000;
+	font-size: 14px;
+	width:125%;
+	border:none;
+	text-align: center;
+	border-radius: 0px;
+	background: #F5F5F5;
+	box-sizing: border-box;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.navbar-default .navbar-form button {
+	margin-top: 1px;
+	font-size: 15.5px;
+    margin-left: 38px;
+	border: none;
+	border-radius: 0px;
+	background: #F5F5F5;
+	box-sizing: border-box;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.navbar-default .navbar-form button:hover{
+	background: #EBEBEB;
+}
+.navbar-default .navbar-form button i{
+	color: #0000C1;
+}
+/* ----------------------------- manu End ------------------------------ */
+/* ----------------------------- Log_Button start ------------------------------ */
+.modal-content{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 8%;
+	border:none;
+	border: 2px solid #E1E1E1;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+.modal-body{
+	border:none;
+}
+.modal-header {
+    border-bottom:none;
+}
+.modal-footer {
+
+    border-top: none;
+}
+#log_button span h4{
+	font-size: 25px;
+	font-family:OpenSans-BoldItalic;
+	color: #000000;
+	margin-left:43%;
+	text-shadow: 0 1px 2px #7e7079cc;
+}
+#log_button .modal-body .col-md-3 h5{
+	font-size: 20px;
+	font-family:OpenSans-BoldItalic;
+	text-align:right;
+	color: #000000;
+}
+#log_button .modal-body .col-md-9 input{
+	width: 86%;
+	padding: 10px 0px;
+	font-size: 16px;
+	font-family:OpenSans-Regular;
+	text-align:center;
+	color: #000000;
+	border:0px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background:#ffffff;
+	transition: .3s;
+}
+#log_button .modal-body .col-md-9 span{
+	font-size: 12px;
+	font-family:OpenSans-Italic;
+	margin-left: 5px;
+	color: #0B8D28;
+}
+#log_button .modal-body .col-md-9 span:focuse{
+	
+}
+#log_button .modal-body .col-md-9 p{
+	font-size:16px;
+	color: #09AB05;
+}
+#log_button .modal-body .col-md-9 input:focus{
+	border: 1px solid #CA00CA;
+}
+#log_button .modal-body .col-md-12 .button{
+	font-size: 17px;
+	font-family: OpenSans-Regular;
+	width: 15%;
+	padding: 1% 0%;
+	margin-left: 48%;
+	border: none;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background:#ffffff;
+}
+#log_button .modal-body .col-md-12 .button:hover{
+	background:#F8F8F8;
+}
+#log_button .modal-body .col-md-12 p a{
+	font-size:13px;
+	font-family:OpenSans-BoldItalic;
+	color: #A40000;
+	text-decoration:none;
+}
+#log_button .modal-body .col-md-12 a{
+	font-size:12px;
+	color: #CE0000;
+}
+#log_button .modal-header button {
+    color: #B1220B;
+	font-size:30px;
+}
+#log_button .btn-default {
+	color: #FFB0B0;
+    background:#ffffff;
+	border:1px solid #FF5555;
+}
+#log_button .btn-default:hover {
+	color: #F8F8F8;
+
+}
+#log_button .modal-body  .not_yet a{
+	color: #21A951;
+	font-size: 13px;
+	font-family:OpenSans-BoldItalic;
+	text-decoration:none;
+}
+#log_button .modal-body  .not_yet a span{
+	color: #951530;
+	font-size: 14px;
+	font-family:OpenSans-Italic;
+}
+#log_button .modal-footer button{
+	border:none;
+	color: #DD0000;
+	font-family:OpenSans-BoldItalic;
+	background: transparent;
+}
+/* ----------------------------- Log_Button End ------------------------------ */
+/* ----------------------------- Registration start ------------------------------ */
+#Registration span h4{
+	font-size: 25px;
+	font-family:OpenSans-BoldItalic;
+	color: #000000;
+	margin-left:40%;
+	text-shadow: 0 1px 2px #7e7079cc;
+}
+#Registration .modal-body .col-md-3 h5{
+	font-size: 19px;
+	font-family:OpenSans-BoldItalic;
+	text-align:right;
+	color: #000000;
+}
+#Registration .modal-body .col-md-9 input{
+	width: 86%;
+	padding: 4px 0px;
+	font-size: 16px;
+	font-family:OpenSans-Regular;
+	text-align:center;
+	color: #000000;
+	border:0px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background:#fffff;
+}
+#Registration .modal-body .col-md-9 span{
+	font-size: 12px;
+	font-family:OpenSans-Italic;
+	margin-left: 5px;
+	color: #0B8D28;
+}
+#Registration .modal-body .col-md-9 p{
+	font-size:16px;
+	color: #09AB05;
+}
+#Registration .modal-body .col-md-9 input:focus{
+	border: 1px solid #CA00CA;
+}
+#Registration .modal-body .col-md-12 .button{
+	font-size: 17px;
+	font-family: OpenSans-Regular;
+	width: 15%;
+	padding: 1% 0%;
+	margin-left: 51%;
+	border: none;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background:#ffffff;
+}
+#Registration .modal-body .col-md-12 .button:hover{
+	background:#F8F8F8;
+}
+#Registration .modal-body .col-md-12 #Addressr{
+	width: 86%;
+	height: 90px;
+	text-align:center;
+	background:#ffffff;
+	color: #000000;
+	border:0px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+#Registration .modal-header button {
+    color: #B1220B;
+	font-size:30px;
+}
+#Registration .btn-default {
+	color: #FFB0B0;
+    background:#E6E6FF;
+	border:1px solid #FF5555;
+}
+#Registration .btn-default:hover {
+	color: #FF0984;;
+
+}
+#Registration .modal-body  .not_yet a{
+	color: #00AA00;
+	font-size: 13px;
+	font-family:OpenSans-BoldItalic;
+	text-decoration:none;
+}
+#Registration .modal-body  .not_yet a span{
+	color: #CE0000;
+	font-size: 14px;
+}
+#Registration .modal-footer button{
+	border:none;
+	color: #DD0000;
+	font-family:OpenSans-BoldItalic;
+	background: transparent;
+}
+/* ----------------------------- Registration End ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

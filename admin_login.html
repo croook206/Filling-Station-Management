@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Admin Login Page</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="icon"  type="image/logo.png" href="images/icon.png"/>
+		<link rel="stylesheet" href="css/admin_login.css">	
+	</head>
+	<body>
+		<section id="registration">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+                        <form action="" method="post" class="full_fild">
+						 <a class="back" href="index.html"><img src="images/back.png"/></a>
+                            <h3>Emplyee Login Page</h3>
+                            <div class="one">
+                                <h4>Email :</h4> <input type="email" id="em" name="email_ad" required class="text_fields" placeholder="Enter email"/>
+                                <p id="b"></p>
+                            </div>
+                            <div class="one">
+                                <h4>Password :</h4> <input type="password" id="pass" name="password_1_ad" required class="text_fields" placeholder="password"/>
+                                <p id="c"></p>
+                            </div>
+
+                            <input type="submit" class="button" name="btn_ad" value="Sine-in" onclick="return check()"/>
+								<div class='form'></div>
+                        </form>							
+					</div>
+				</div>
+			</div>
+			
+		</section><!-- End part -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</body>
+</html>

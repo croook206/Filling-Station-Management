@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration: none;
+}
+@font.face{
+	font-family:OpenSans-Bold;
+	src:url(../fonts/OpenSans-Bold.ttf);
+}
+@font.face{
+	font-family:OpenSans-BoldItalic;
+	src:url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+@font.face{
+	font-family:fontawesome-webfont;
+	src:url(../fonts/fontawesome-webfont.ttf);
+}
+@font.face{
+	font-family:OpenSans-Italic;
+	src:url(../fonts/OpenSans-Italic.ttf);
+}
+@font.face{
+	font-family:OpenSans-Light;
+	src:url(../fonts/OpenSans-Light.ttf);
+}
+/* ----------------------------- admin start ------------------------------ */
+.black{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(55, 167, 16, 0.78);
+	transition: .2s;
+	z-index: 10000;
+}
+.glow_green{
+	color:#ffffff;
+	margin-top: 100px;
+	position:absolute;
+	margin-left: 10px;
+	padding: 20px; 
+	background: #12A901;
+	border-radius: 5px;
+}
+.glow_red{
+	color:#ffffff;
+	margin-top: 100px;
+	position:absolute;
+	margin-left: 10px;
+	padding: 20px; 
+	background: #FF4F4F;
+	border-radius: 5px;
+}
+.black{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(55, 167, 16, 0.68);
+	transition: .4s;
+	z-index: 10000;
+}
+#admin{
+    width: 100%;
+	margin-bottom: -20px;	
+}
+.navbar-default  { 
+	background-color:rgba(52, 73, 94,1.0); /* 1 background-color*/
+	border: none;
+	border-radius: 0px;
+	/* box-shadow: 0 8px 30px #d2a7b4e8; */
+}
+#admin h3{
+    font-size: 26px;
+    font-family:OpenSans-Bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1% 0%;
+    background-color: #172227;
+    
+}
+#admin h3 i{
+	color: #FFE7CE;
+	font-size: 18px;
+	border: none;
+}
+
+#admin .left_manu li a{
+	text-transform: uppercase;
+}
+#admin ul li a{
+	color: #ffffff;
+	font-size: 14px;
+	font-family:OpenSans-Semibold;
+	line-height: 225%;
+}
+#admin ul li a:hover{
+	background-color: #f39c12;
+	color: #0000B3;
+}
+#admin .navbar > .container .navbar-brand img{
+   width: 50px;
+   height: 40px;
+   margin-top: -4px;
+}
+#admin ul li a:focus, #manu .manu1 ul li a:hover{
+	background-color: #f39c12;
+	color: #0000B3;
+ }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #ffffff;
+    background-color: #CA0000;
+}
+#admin .navbar-nav .logout a{
+	background-color: #34495E;
+	border: none;
+}
+#admin .navbar-nav .logout a:hover{
+	background-color: #8e44ad;
+	color: #00CC00;
+}
+
+/* ----------------------------- admin End ------------------------------ */
+
+/* ------------------------- footer_end part ------------------------- */
+
+/* ------------------------- footer_end part End ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

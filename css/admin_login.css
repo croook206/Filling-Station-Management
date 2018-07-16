@@ -1,0 +1,147 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:none;
+}
+a, a:hover{
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face{
+	font-family:Regular;
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family:op-bold;
+	src:url(../fonts/OpenSans-Bold.ttf);
+}
+/*main*/
+body{
+    background: url(../images/water.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+}
+.back img{
+	width: 70px;
+	height:60px;
+	margin-top: -121px;
+}
+
+.full_fild{
+    margin-top: 5%;
+    margin-left: 0%;
+    padding:110px 60px;
+    /* background: url(../images/62.png) no-repeat ; */
+    background-size:cover;
+    border-radius: 15px;
+}
+h3{
+    color: ###2ecc71;
+    font-family:Regular;
+    margin-left: 470px;
+    padding-bottom: 10px;
+}
+h4{
+    font-family:Regular;
+    color: #804000;
+}
+.registration{
+    width: 100%;
+    border: 2px solid #666;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+.text_fields{
+    color: #000000;
+    width: 60%;
+    height: 40px;
+    border: 1px solid #9354BD;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #F4FEF1;
+}
+.text_fields:focus{
+    border-color: #c00;
+}
+.button{
+    background: #E2FDDB;
+    padding: 4px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-left: 51%;
+    border: 1px solid #00D700;
+}
+.button:hover{
+    border-radius: 3px;
+    border: 1px solid #009500;
+    background-color: #FFFFF0;
+}
+.one{
+    margin-left: 350px;
+    position: relative;
+}
+.one p{
+    color: #F32305;
+    font-family:op-bold;
+    position: absolute;
+    left: 61%;
+    z-index: 999;
+    display: inline-block;
+    top: 37px;
+}
+span p{
+    color: #D74C24;
+    margin-left: 50%;
+    font-size: 12px;
+    margin-top: -22px;
+}
+.form h5{
+	font-size: 21px;
+	color: #00D900;
+    font-family:Regular;
+	margin-top: 20px;
+    margin-left: 350px;
+}
+.form h2{
+	font-size: 20px;
+	color: #EA0000;
+    font-family:Regular;
+    margin-left: 350px;
+	margin-top: 20px;
+	/* background:#E1FFE1; */
+	width:30%;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:320px) and (max-width:767px){
+    
+}
+
